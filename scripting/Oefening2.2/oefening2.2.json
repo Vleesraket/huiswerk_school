@@ -1,0 +1,14 @@
+[
+    {
+        "studentNummer": 54321,
+        "studentNaam": "Leandro",
+        "studentTelefoon": "0615667788",
+        "studentKlas": "i1b"
+    },
+    {
+        "studentNummer": 12345,
+        "studentNaam": "David",
+        "studentTelefoon": "0614556677",
+        "studentKlas": "i1b"
+    }
+]
