@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3.1 JSON Read/Write</title>
+</head>
+
+<body>
+    <form id="nieuweStudent">
+        <fieldset>
+            <legend>Student Toevoegen:</legend>
+            <label for="studentNaam">Student Naam:</label>
+            <input type="text" name="studentNaam" id="studentNaam" required minlength="5">
+            <br>
+
+            <label for="studentNummer">Student Nummer:</label>
+            <!-- changed: use text + pattern to require exactly 5 digits -->
+            <input type="text" name="studentNummer" id="studentNummer" required pattern="^\d{5}$" inputmode="numeric"
+                maxlength="5" minlength="5">
+            <br>
+
+            <input type="submit" value="Opslaan"><br>
+        </fieldset>
+    </form>
+    <br>
+    <div id="output">
+        <table id="studentTabel">
+            <thead>
+                <tr>
+                    <th>Student Naam</th>
+                    <th>Student Nummer</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script/opdracht3.1.js"></script>
+</body>
+
+</html>
